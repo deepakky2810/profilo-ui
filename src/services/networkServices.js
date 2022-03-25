@@ -11,8 +11,11 @@ export const RESPONSE_CODE = Object.freeze({
 	HTTP_UNAUTHORIZED: 401,
 });
 
+const LOCALHOST = "http://localhost:4445";
+const AWS_EC2 = "34.233.123.32:4445";
+const BASE_URL = AWS_EC2;
 export const sendGoogleToken = async (reqObj) => {
-	const url = `http://localhost:4445/sendGoogleToken.ky`;
+	const url = `${BASE_URL}/sendGoogleToken.ky`;
 	const body = { ...reqObj };
 	console.log("sendGoogleToken API fired");
 	try {
@@ -28,7 +31,7 @@ export const sendGoogleToken = async (reqObj) => {
 };
 
 export const signup = async (reqObj) => {
-	const url = `http://localhost:4445/signup.ky`;
+	const url = `${BASE_URL}/signup.ky`;
 	const body = { ...reqObj };
 	console.log("signup API fired");
 	try {
@@ -44,7 +47,7 @@ export const signup = async (reqObj) => {
 };
 
 export const signin = async (reqObj) => {
-	const url = `http://localhost:4445/signin.ky`;
+	const url = `${BASE_URL}/signin.ky`;
 	const body = { ...reqObj };
 	console.log("signin API fired");
 	try {
@@ -60,7 +63,7 @@ export const signin = async (reqObj) => {
 };
 
 export const addOrEditProfileDetails = async (reqObj, token) => {
-	const url = `http://localhost:4445/addOrEditProfileDetails.ky`;
+	const url = `${BASE_URL}/addOrEditProfileDetails.ky`;
 	const body = { ...reqObj };
 	console.log("addOrEditProfileDetails API fired");
 	try {
@@ -76,7 +79,7 @@ export const addOrEditProfileDetails = async (reqObj, token) => {
 };
 
 export const getProfileDetails = async (userId, signInMethod, token) => {
-	const url = `http://localhost:4445/getProfileDetails.ky?userId=${userId}&signInMethod=${signInMethod}`;
+	const url = `${BASE_URL}/getProfileDetails.ky?userId=${userId}&signInMethod=${signInMethod}`;
 	console.log("getProfileDetails API fired");
 	try {
 		const rawResponse = await axios.get(url, {
