@@ -12,7 +12,7 @@ export const RESPONSE_CODE = Object.freeze({
 });
 
 const LOCALHOST = "http://localhost:4445";
-const AWS_EC2 = "34.233.123.32:4445";
+const AWS_EC2 = "http://ec2-34-233-123-32.compute-1.amazonaws.com:4445";
 const BASE_URL = AWS_EC2;
 export const sendGoogleToken = async (reqObj) => {
 	const url = `${BASE_URL}/sendGoogleToken.ky`;
