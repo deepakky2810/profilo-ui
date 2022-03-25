@@ -1,0 +1,94 @@
+{
+	"id": 0,
+	"firstName": "Deepak",
+	"middleName": "Kumar",
+	"lastName": "Yadav",
+	"dob": "1999-10-28",
+	"address": {
+		"line1": "AT-Chahuta, P.O-Toetha, VIA- Khirhar",
+		"line2": "BLOCK-Benipatti, Distt-Madhubani",
+		"city": "Madhubani",
+		"state": "Bihar",
+		"country": "India",
+		"zip": "847230"
+	},
+	"email": "deepakky2810@gmail.com",
+	"phones": [
+		{
+			"primary": true,
+			"type": "mobile",
+			"countryCode": "91",
+			"number": "8529792210"
+		},
+		{
+			"primary": false,
+			"type": "mobile",
+			"countryCode": "91",
+			"number": "6204732970"
+		}
+	],
+	"profilePictureUrl": "https://avatars.dicebear.com/api/male/chill.svg",
+	"educations": [
+		{
+			"rank": 2,
+			"type": "middleSchool",
+			"institution": "K V Jawaharnagar",
+			"gradeType": "cgpa",
+			"gradeOutOf": 10.0,
+			"grade": 9.2,
+			"complete": true,
+			"startYear": "2014",
+			"completeYear": "2015"
+		},
+		{
+			"rank": 1,
+			"type": "highSchool",
+			"institution": "K V Jawaharnagar",
+			"gradeType": "percentage",
+			"gradeOutOf": 100.0,
+			"grade": 89.8,
+			"complete": true,
+			"startYear": "2015",
+			"completeYear": "2017"
+		},
+		{
+			"rank": 0,
+			"type": "graduation",
+			"institution": "Kalinga Institute of Industrial Technology",
+			"gradeType": "CGPA",
+			"gradeOutOf": 10.0,
+			"grade": 9.2,
+			"complete": false,
+			"startYear": "2018",
+			"completeYear": "2022"
+		}
+	],
+	"workExperiences": [
+		{
+			"id": 0,
+			"startDate": "01 Jan 2021",
+			"endDate": "",
+			"presentlyWorking": true,
+			"jobTitle": "Full-Stack Engineer Intern",
+			"company": "HighRadius Corporation",
+			"companyLogoUrl": "https://cdn.highradius.com/wp-content/uploads/2020/09/HighRadius-Trifecta-2020.svg",
+			"jobDescription": "React is a JavaScript library which was developed by facebook and is used for building user-interfaces for web and mobile apps. React is a JavaScript library which was developed by facebook and is used for building user-interfaces for web and mobile apps."
+		},
+		{
+			"id": 1,
+			"startDate": "01 Jan 2021",
+			"endDate": "",
+			"presentlyWorking": true,
+			"jobTitle": "Full-Stack Engineer Intern",
+			"company": "HighRadius Corporation",
+			"companyLogoUrl": "https://cdn.highradius.com/wp-content/uploads/2020/09/HighRadius-Trifecta-2020.svg",
+			"jobDescription": "React is a JavaScript library which was developed by facebook and is used for building user-interfaces for web and mobile apps. React is a JavaScript library which was developed by facebook and is used for building user-interfaces for web and mobile apps."
+		}
+	],
+	"externalProfileLinks": {
+		"facebook": "#",
+		"github": "#",
+		"linkedin": "#",
+		"instagram": "#"
+	}
+}
